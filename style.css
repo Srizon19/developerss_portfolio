@@ -7,7 +7,7 @@ h1{
     font-size: 3rem;
 }
 
-#header_name{
+#text-orange{
 
     color: orange;
 }
@@ -44,4 +44,31 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+
+#fullStack{
+
+    border-left: 7px solid tomato;
+}
+
+#babyDeveloper{
+    border-left: 7px solid blue;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
 }
